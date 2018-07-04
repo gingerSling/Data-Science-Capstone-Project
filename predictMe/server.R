@@ -11,7 +11,7 @@ library(shiny)
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) { 
-    url1 <- a("GitHub repository", href="https://www.google.com/")
+    url1 <- a("GitHub repository", href="https://github.com/gingerSling/Data-Science-Capstone-Project")
     output$tab1 <- renderUI({
         tagList("The code is available at my personal ", url1)
     }) 
